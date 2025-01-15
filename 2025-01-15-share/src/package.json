@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2024-12-jsdc/ --out ../../dist/2024-12-jsdc",
-    "export": "slidev export --dark --per-slide --output ../2024-12-jsdc.pdf"
+    "build": "slidev build --base /2025-01-15-share/ --out ../../dist/2025-01-15-share",
+    "export": "slidev export --dark --per-slide --output ../2025-01-15-share.pdf"
   }
 }
