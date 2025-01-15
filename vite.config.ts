@@ -1,6 +1,6 @@
+import MarkdownItMagicLink from 'markdown-it-magic-link'
 import { defineConfig } from 'vite'
 import '@slidev/cli'
-import MarkdownItMagicLink from 'markdown-it-magic-link'
 
 export default defineConfig({
   slidev: {
@@ -11,7 +11,7 @@ export default defineConfig({
             Vitest: 'https://github.com/vitest-dev/vitest',
             Rolldown: 'https://github.com/rolldown/rolldown',
             Vite: 'https://github.com/vitejs/vite',
-            Esbuild:"https://github.com/evanw/esbuild",
+            Esbuild: 'https://github.com/evanw/esbuild',
             Oxc: {
               link: 'https://oxc.rs/',
               imageUrl:

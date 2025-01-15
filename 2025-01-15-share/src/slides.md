@@ -1099,7 +1099,7 @@ ESLint 也可以是 [click] 格式化工具。
 
 這當然不是新鮮事，因為自從一開始，許多專案就一直在以這種方式使用 ESLint。
 
-雖然這個話題實際上有點爭議，你可能會聽到有人說你應該使用專用的格式化工具，比如 Prettier 或 dprint。對我來說，我認為這完全歸結於那些 ESLint 的風格規則需要大量的維護工作。去年，ESLint 和 TypeScript ESLint 團隊決定從核心中棄用這些風格規則。[click] 然後，我發起了 ESLint Stylistic 專案，將所有這些 JS、TS 和 JSX 的風格規則收集到這個組織中，並讓社區繼續維護它們。我繼續使用 ESLint 作為格式化工具，因為我認為它比 Prettier 更靈活和可定制，這歸功於 ESLint 的特性。
+雖然這個話題實際上有點爭議，你可能會聽到有人說你應該使用專用的格式化工具，比如 Prettier 或 dprint。對我來說，我認為這完全歸結於那些 ESLint 的風格規則需要大量的維護工作。去年，ESLint 和 TypeScript ESLint 團隊決定從核心中棄用這些風格規則。[click] 然後，社群上發起了 ESLint Stylistic 專案，將所有這些 JS、TS 和 JSX 的風格規則收集到這個組織中，並讓社區繼續維護它們。我繼續使用 ESLint 作為格式化工具，因為我認為它比 Prettier 更靈活和可定制，這歸功於 ESLint 的特性。
 
 [click] 如果你使用 VS Code，你可以設置 `editor.codeActionOnSave` 在保存時自動修覆 eslint 錯誤。並使用 `eslint.rules.customizations` 在你的 IDE 中靜默風格規則，使它們更像一個格式化工具。對於其他代碼編輯器，我相信也有類似的設定檔可以做到這一點。
 -->
